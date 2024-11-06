@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#reminder-form {
+    margin-top: 20px;
+}
+
+#reminder-form input[type="text"],
+#reminder-form input[type="date"] {
+    margin-right: 10px;
+    padding: 10px;
+    width: calc(50% - 20px);
+}
+
+#reminder-form button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#reminder-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#reminder-list li {
+    background: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
