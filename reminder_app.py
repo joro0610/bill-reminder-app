@@ -4,7 +4,7 @@ class Reminder:
     def __init__(self, name, amount, due_date, periodicity):
         self.name = name
         self.amount = amount
-        self.due_date = due_date
+        self.due_date  due_date
         self.periodicity = periodicity
 
     def __str__(self):
@@ -29,4 +29,4 @@ app = ReminderApp()
 print(app.add_reminder("Electric Bill", "50.00", "2023-12-01", "monthly"))
 print(app.add_reminder("Water Bill", "30.00", "2023-12-05", "monthly"))
 print(app.show_reminders())
-"Добавяне на основен код за приложение за напомняне"
+
